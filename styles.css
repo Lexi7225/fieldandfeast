@@ -1,4 +1,4 @@
-/* --- IMPORTED FONT --- */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 
 :root {
@@ -11,7 +11,7 @@
     --font-main: "Playfair Display", serif;
 }
 
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,15 +25,15 @@ body {
     line-height: 1.65;
 }
 
-/* ---------------- HERO HEADER ---------------- */
+
 
 header {
-    background-color: #162040; /* deep navy */
+    background-color: #162040; 
     padding: 25px 0;
     text-align: center;
 }
 
-/* Remove ALL padding/background so logo has NO box */
+
 .logo-container {
     display: inline-block;
     padding: 0;
@@ -43,15 +43,15 @@ header {
 
 .logo-container img {
     display: block;
-    width: 90px;  /* adjust as needed */
+    width: 90px;  
     height: auto;
-    background: none !important; /* removes navy box */
+    background: none !important; 
     border: none;
     padding: 0;
 }
 
 
-/* HERO SECTION (unchanged except removing backgrounds) */
+
 .hero-header {
     background: var(--midnight-blue);
     text-align: center;
@@ -85,7 +85,6 @@ header {
 }
 
 
-/* CLEAN VERSION — NO BORDER, NO WHITE BACKGROUND */
 .hero-logo-wrap {
     width: 130px;
     margin: 0 auto;
@@ -130,7 +129,6 @@ header {
     font-size: 1.1rem;
 }
 
-/* ------------------ SECTIONS ------------------ */
 main {
     width: 90%;
     max-width: 900px;
@@ -147,7 +145,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* ------------------ OFFERINGS CARDS ------------------ */
+
 .offerings-grid {
     display: grid;
     gap: 1.5rem;
@@ -171,8 +169,6 @@ h2 {
 .card ul {
     margin: 0.7rem 0 0.7rem 1.2rem;
 }
-
-/* ------------------ GALLERY ------------------ */
 
 .gallery-row {
     display: grid;
@@ -204,7 +200,6 @@ figcaption {
     margin: 2rem auto 0;
 }
 
-/* ------------------ FOOTER ------------------ */
 footer {
     text-align: center;
     background: var(--midnight-blue);
@@ -216,7 +211,7 @@ footer a {
     color: var(--champagne);
     text-decoration: none;
 }
-/* --- IMPORTED FONT --- */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
 
 :root {
@@ -229,7 +224,7 @@ footer a {
     --font-main: "Playfair Display", serif;
 }
 
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -243,7 +238,6 @@ body {
     line-height: 1.65;
 }
 
-/* ---------------- HERO HEADER ---------------- */
 .hero-header {
     background: var(--midnight-blue);
     text-align: center;
@@ -276,7 +270,6 @@ body {
     color: var(--champagne);
 }
 
-/* NAV BAR */
 .top-nav {
     background: var(--champagne);
     padding: 0.8rem;
@@ -297,7 +290,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* ------------------ SECTIONS ------------------ */
 main {
     width: 90%;
     max-width: 900px;
@@ -314,7 +306,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* ------------------ OFFERINGS CARDS ------------------ */
 .offerings-grid {
     display: grid;
     gap: 1.5rem;
@@ -339,7 +330,7 @@ h2 {
     margin: 0.7rem 0 0.7rem 1.2rem;
 }
 
-/* ------------------ GALLERY ------------------ */
+
 
 .gallery-cards {
     display: flex;
@@ -406,26 +397,24 @@ figcaption {
 .gallery-button {
     display: block;
     width: 100%;
-    max-width: 600px;         /* makes it wide like mockup */
-    background: #7a8d56;      /* olive green like your palette */
+    max-width: 600px;  
+    background: #7a8d56;
     color: white;
     text-align: center;
-    padding: 1rem 2rem;       /* more height */
-    margin: 2rem auto 0;      /* centers it */
+    padding: 1rem 2rem;
+    margin: 2rem auto 0;
     border-radius: 8px;
     text-decoration: none;
-    font-size: 1.1rem;        /* bigger text */
-    font-weight: 700;         /* bold like mockup */
-    letter-spacing: 0.5px;    /* slight polish */
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     transition: background 0.3s ease;
 }
 
 .gallery-button:hover {
-    background: #6e804d;      /* darker on hover */
+    background: #6e804d;
 }
 
-
-/* ------------------ FOOTER ------------------ */
 footer {
     text-align: center;
     background: var(--midnight-blue);
