@@ -1,6 +1,8 @@
+/* CSS BY Alexcia Edwards */
 
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
-
+/* ROOT VARIABLES */
 :root {
     --midnight-blue: #1C2640;
     --olive: #738458;
@@ -11,13 +13,13 @@
     --font-main: "Playfair Display", serif;
 }
 
-
+/* CSS RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* GLOBAL STYLES (mobile first/small) */
 body {
     background: white;
     color: var(--dark);
@@ -108,7 +110,6 @@ header {
     color: var(--champagne);
 }
 
-/* NAV BAR */
 .top-nav {
     background: var(--champagne);
     padding: 0.8rem;
@@ -224,7 +225,7 @@ footer a {
     --font-main: "Playfair Display", serif;
 }
 
-
+/* MEDIA QUERY (medium) */
 * {
     margin: 0;
     padding: 0;
@@ -289,7 +290,7 @@ body {
     font-weight: bold;
     font-size: 1.1rem;
 }
-
+/* MEDIA QUERY (xl) */
 main {
     width: 90%;
     max-width: 900px;
@@ -330,8 +331,7 @@ h2 {
     margin: 0.7rem 0 0.7rem 1.2rem;
 }
 
-
-
+/* MEDIA QUERY (large) */
 .gallery-cards {
     display: flex;
     gap: 1.5rem;
